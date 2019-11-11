@@ -1,0 +1,282 @@
+
+h1{
+  font-size: 30px;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 300;
+  text-align: center;
+  margin-bottom: 15px;
+}
+table{
+  /*width:100%;*/
+  table-layout: fixed;
+}
+
+p{
+  color:#ffffff;
+  font-family:Arial;
+  font-size:18px;
+  font-weight:bold;
+  text-decoration:none;
+  text-shadow:0px 1px 0px #5b8a3c;
+}
+
+g{
+  color:#0D452B;
+  font-family:Arial;
+  font-size:18px;
+  font-weight:bold;
+  text-decoration:none;
+  text-shadow:0px 1px 0px #5b8a3c;
+
+}
+
+
+/*///////////////////TABLA GENERAL//////////////////// */
+
+
+/* TABLAS Y CELDAS*/
+.tbl-header{
+  width: 1327px;
+  background-color: rgba(255,255,255,0.3);
+ }
+.tbl-content{
+  height:300px;
+  overflow-x:auto;
+  margin-top: 0px;
+  border: 1px solid rgba(255,255,255,0.3);
+}
+
+#año{  /*a*/
+    display: inline-block;
+    padding-left: 19px;
+}
+
+#torneo{ /*b*/
+    display: -webkit-inline-box;
+    padding-left: 10px;
+}
+
+#ubicacion{ /*c*/
+  display: -webkit-inline-box;
+}
+
+#fecha{ /*d*/
+  display: -webkit-inline-box;
+}
+
+#singles{ /*e*/
+    display: -webkit-inline-box;
+    padding-left: 9px;
+}
+
+#dobles{ /*f*/
+    padding-left: 16px;
+    display: -webkit-inline-box;
+}
+
+#condicion{ /*g*/
+    display: -webkit-inline-box;
+    padding-left: 23px;
+}
+
+#superficie{ /*h*/
+    display: -webkit-inline-box;
+    padding-left: 33px;
+}
+
+#ganador{  /*i*/
+}
+
+.a{padding-left: 34px;}
+.b{padding-left: 151px;}
+.c{padding-left: 210px;}
+.d{padding-left: 93px;}
+.e{padding-left: 19px;}
+.f{padding-left: 0px;}
+.g{padding-left: 24px;}
+.h{padding-left: 49px;}
+.i{padding-left: 58px;}
+
+/*//////////////////////////////////////////////////// */
+
+
+th{
+  padding: 20px 15px;
+  text-align: center;
+  font-weight: 500;
+  font-size: 12px;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+td{
+  padding: 15px;
+  text-align: center;
+  vertical-align:middle;
+  font-weight: 300;
+  font-size: 12px;
+  color: #fff;
+  border-bottom: solid 1px rgba(255,255,255,0.1);
+}
+
+
+/* demo styles */
+
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,500,300,700);
+body{
+  background: -webkit-linear-gradient(left, #25c481, #25b7c4);
+  background: linear-gradient(to right, #25c481, #25b7c4);
+  font-family: 'Roboto', sans-serif;
+}
+section{
+  margin: 50px;
+}
+
+
+/* for custom scrollbar for webkit browser*/
+
+::-webkit-scrollbar {
+    width: 6px;
+} 
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 
+} 
+::-webkit-scrollbar-thumb {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 
+}
+
+
+
+/*BOTONES PARA VER CAMPEON Y CAMPEONATOS*/
+.myButton {
+  box-shadow: 0px 10px 14px -7px #3e7327;
+  background:linear-gradient(to bottom, #25C481 5%, #72b352 100%);
+  background-color:#25C481;
+  border-radius:4px;
+  border:1px solid #4b8f29;
+  display:inline-block;
+  cursor:pointer;
+  color:#ffffff;
+  font-family:Arial;
+  font-size:13px;
+  font-weight:bold;
+  padding:6px 12px;
+  text-decoration:none;
+  text-shadow:0px 1px 0px #5b8a3c;
+  display: flex;
+  margin-left: 231px;
+}
+.myButton:hover {
+  background:linear-gradient(to bottom, #72b352 5%, #25C481 100%);
+  background-color:#72b352;
+}
+.myButton:active {
+  position:relative;
+  top:1px;
+}
+/*/////////////////////////////////////////////////////////////////////*/
+
+
+/*BOTONES PARA VER LOGUIN Y LOGOUT*/
+.example_f {
+   border-radius: 4px;
+   background: linear-gradient(to right, #67b26b, #4ca2cb) !important;
+   border: none;
+   color: #FFFFFF;
+   text-align: center;
+   text-transform: uppercase;
+   font-size: 18px;
+   padding: 20px;
+   width: 130px;
+   transition: all 0.4s;
+   cursor: pointer;
+   margin: 5px;
+ }
+ .example_f span {
+   cursor: pointer;
+   display: inline-block;
+   position: relative;
+   transition: 0.4s;
+ }
+ .example_f span:after {
+   content: '\00bb';
+   position: absolute;
+   opacity: 0;
+   top: 0;
+   right: -20px;
+   transition: 0.5s;
+ }
+ .example_f:hover span {
+   padding-right: 25px;
+ }
+ .example_f:hover span:after {
+   opacity: 1;
+   right: 0;
+ }
+ /*/////////////////////////////////////////////////////////////////////*/
+
+
+ /* Reset Select */
+select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -ms-appearance: none;
+  appearance: none;
+  outline: 0;
+  box-shadow: none;
+  border: 0 !important;
+  background: #25bda9;
+  background-image: none;
+}
+/* Remove IE arrow */
+select::-ms-expand {
+  display: none;
+}
+/* Custom Select */
+.select {
+  position: relative;
+  display: flex;
+  width: 20em;
+  height: 3em;
+  line-height: 3;
+  background: #25bda9;
+  overflow: hidden;
+  border-radius: .25em;
+      margin-top: 20px;
+    margin-left: 230px;
+}
+select {
+  flex: 1;
+  padding: 0 .5em;
+  color: #fff;
+  cursor: pointer;
+  text-align: center;
+}
+/* Arrow */
+.select::after {
+  content: '\25BC';
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 0 1em;
+  background: #25B7C4;
+  cursor: pointer;
+  pointer-events: none;
+  -webkit-transition: .25s all ease;
+  -o-transition: .25s all ease;
+  transition: .25s all ease;
+}
+/* Transition */
+.select:hover::after {
+  color: #26A669;
+}
+
+
+.resultado-container{
+  margin-left: 507px;
+}
+
+.containerc{
+      margin-left: 281px;
+}
