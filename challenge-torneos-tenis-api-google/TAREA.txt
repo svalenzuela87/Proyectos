@@ -1,0 +1,12 @@
+En esta sheet vas a encontrar todos los torneos de tenis que se jugaron desde 1877.
+
+Usando la api de google sheets te pedimos que nos digas de cada Grand Slam, quién es el jugador que mas veces lo ganó (no vale hardcodear a Rafa en Roland Garros) y cuando haces un click sobre el jugador te diga cuando fue la ultima vez que lo ganó. El diseño te lo dejamos para vos :)
+
+
+
+Consignas y Tips
+Resolvelo en PHP y que el backend funcione como una API REST.
+La resolución debe ser un fork de este repo (Se evalúa el uso de GIT).
+No uses frameworks para php, perdoná :)
+El resultado nos gustaría verlo en HTML, CSS y JS haciendo llamadas asincronas al backend. Podes usar el framework de js (menos Jquery, que no es un framework) que quieras :)
+No uses el nombre del Grand Slam como indentificador. Si le prestas atención al excel hay otra forma :).
